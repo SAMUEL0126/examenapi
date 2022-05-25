@@ -1,0 +1,63 @@
+
+body{
+   background-color: white;
+}
+
+button {
+	width: 6rem;    
+	height: 2rem;
+	border: groove 3px #bf2b05;
+	background-color: #e74409ea;
+	cursor: pointer;	
+	margin-top: 2rem;
+}
+
+button:hover {
+	background-color: #ff0000;
+	border-radius: 10px;
+	border: solid 3px groove #f3eb00;
+	color: #fff;
+}
+
+input {
+	border-radius: 10px;
+	border: solid 3px #bf2b05;
+	width: 16rem;
+	height: 1.8rem;
+	color: #bf2b05;
+	padding-left: 1rem;
+}
+
+input::placeholder {
+	color: #bf2b05;
+}
+
+.randomTitle {
+	font-size: 2rem;
+	font-weight: 800;
+	color: #bf2b05;
+	margin: 1rem;
+}
+
+.card {
+	width: 21rem;
+	height: 20rem;	
+	border-radius: 15px;
+	border: solid 1px #210700;
+	box-shadow: 0 0 20px #681b01;
+	margin: 1rem;
+}
+
+.img-card {
+	width: 100%;
+	height: 100%;
+	border-radius: 15px 15px 0 0;
+}
+
+.card > p {
+	font-size: 1.5rem;
+	color: #bf2b05;
+	font-weight: 800;
+	text-align: center;	
+	height: 30%;
+}
